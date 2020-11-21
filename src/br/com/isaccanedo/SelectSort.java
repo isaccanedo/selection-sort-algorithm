@@ -14,24 +14,24 @@ public class SelectSort {
     public void sortArr(int[] arr) {
         int selectedValue, swapValues;
         for (int i=0; i<arr.length-1; i++) {
-            selectedValue = i; // select first value from the left
-            for (int n=i+1; n < arr.length; n++) { // get another value next to selectedValue
-                if (arr[n] < arr[selectedValue]) { // compare selectedValue to n
-                    selectedValue =n; // if n < selectedValue, swap them
+            selectedValue = i; // selecione o primeiro valor da esquerda
+            for (int n=i+1; n < arr.length; n++) { // obtenha outro valor próximo a selectedValue
+                if (arr[n] < arr[selectedValue]) { // comparar selectedValue com n
+                    selectedValue =n; // se n <valor selecionado, troque-os
                 }
             }
             swapValues = arr[selectedValue];
             arr[selectedValue] = arr[i];
-            arr[i] = swapValues; // swap selectedValue to current position
+            arr[i] = swapValues; // trocar o selectedValue (valor selecionado) para a posição atual
         }
     }
 
     /**
-     * 
+     *
      * @param arr
      */
 
-    public void showArr(int[] arr) { // display content of array
+    public void showArr(int[] arr) { // exibir o conteúdo da matriz
         for(int i=0; i<arr.length; i++) {
             System.out.print(arr[i] + "\t");
         }
