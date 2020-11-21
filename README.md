@@ -1,11 +1,10 @@
 # Selection Sort Algorithm (Java version)
 
-![Selection Sort Algorithm](https://he-s3.s3.amazonaws.com/media/uploads/2888f5b.png)
+![Selection Sort Algorithm](https://github.com/isaccanedo/selection-sort-algorithm/blob/master/algoritmo.png)
 
-* Demonstrates how a [Selection Sort Algorithm](http://www.java2novice.com/java-sorting-algorithms/selection-sort/) works
-* The sort algorithm starts with leftmost part of the array
-* If the selected value is greater than the value of n (the value being compared), swap it. 
-* Otherwise, select n and move to next position of elements
-* Created to simply practice coding in Java 
+* O algoritmo de classificação começa com a parte mais à esquerda da matriz
+* Se o valor selecionado for maior que o valor de n (o valor sendo comparado), troque-o. 
+* Caso contrário, selecione n e mova para a próxima posição dos elementos
+* Criado para simplesmente praticar codificação em Java
 
-### Created by [IasJem](https://github.com/iasjem)
+### [Isac Canedo](https://github.com/isaccanedo/selection-sort-algorithm)
