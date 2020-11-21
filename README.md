@@ -1,4 +1,4 @@
-# Selection Sort Algorithm (Java version)
+# Algoritmo de classificação de seleção
 
 ![Selection Sort Algorithm](https://github.com/isaccanedo/selection-sort-algorithm/blob/master/algoritmo.png)
 
